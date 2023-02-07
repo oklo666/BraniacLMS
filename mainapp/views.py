@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from datetime import datetime
 
 from django.views.generic import TemplateView
@@ -31,10 +32,24 @@ class NewsWithPaginatorView(NewsPageView):
 class CoursesPageView(TemplateView):
     template_name = "mainapp/courses_list.html"
 
+=======
+
+from django.views.generic import TemplateView
+
+class MainPageView(TemplateView):
+    template_name = "mainapp/index.html"
+
+class NewsPageView(TemplateView):
+    template_name = "mainapp/news.html"
+
+class CoursesPageView(TemplateView):
+    template_name = "mainapp/courses_list.html"    
+>>>>>>> main
 
 class ContactsPageView(TemplateView):
     template_name = "mainapp/contacts.html"
 
+<<<<<<< HEAD
 
 class DocSitePageView(TemplateView):
     template_name = "mainapp/doc_site.html"
@@ -42,3 +57,29 @@ class DocSitePageView(TemplateView):
 
 class LoginPageView(TemplateView):
     template_name = "mainapp/login.html"
+=======
+class DocSitePageView(TemplateView):
+    template_name = "mainapp/doc_site.html"
+
+class LoginPageView(TemplateView):
+    template_name = "mainapp/login.html"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> main
